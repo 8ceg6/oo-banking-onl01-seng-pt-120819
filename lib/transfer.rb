@@ -9,9 +9,9 @@ class Transfer
   end 
   
   
-  def status
-      @status
-  end 
+  # def status
+  #     @status
+  # end 
   
   def amount 
       @amount 
