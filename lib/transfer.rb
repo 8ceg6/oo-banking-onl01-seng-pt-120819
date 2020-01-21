@@ -31,8 +31,10 @@ class Transfer
           receiver.balance += amount 
           @status = 'complete'
           
-      ifels 
-        
+      else 
+          sender.balance < amount 
+          @status = "rejected"
+          
         end 
       end 
  
